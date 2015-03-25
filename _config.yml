@@ -8,6 +8,7 @@ url: "http://jakeloo.me" # the base hostname & protocol for your site
 twitter_username: dvcoders
 github_username:  dvcoders
 facebook_username: 
+footer_note: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
 
 # Build settings
 markdown: kramdown

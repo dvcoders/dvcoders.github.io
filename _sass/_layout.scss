@@ -100,12 +100,14 @@
 
 .social-media-list {
     list-style-type: none;
+    margin-left: -5px;
+
     > li {
         display: inline-block;
     }
 
     > li:not(:first-child) {
-        margin-left: 25px;
+        margin-left: 5px;
     }
 
 }
