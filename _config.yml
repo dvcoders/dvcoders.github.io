@@ -3,8 +3,8 @@ title: DVCoders
 subtitle: Where the coders belong
 email: info@dvcoders.com
 description: DVCoders official club website
-baseurl: "dvcoders-web" # the subpath of your site, e.g. /blog/
-url: "jakeloo.me" # the base hostname & protocol for your site
+baseurl: "/dvcoders-web" # the subpath of your site, e.g. /blog/
+url: "http://jakeloo.me" # the base hostname & protocol for your site
 twitter_username: dvcoders
 github_username:  dvcoders
 
