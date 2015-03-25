@@ -114,22 +114,25 @@
 .footer-col {
     float: left;
     margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    // width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    // width:         calc(35% - (#{$spacing-unit} / 2));
+    float: left;
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    // width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    // width:         calc(20% - (#{$spacing-unit} / 2));
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    // width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    // width:         calc(45% - (#{$spacing-unit} / 2));
+    float: right;
 }
 
 @include media-query($on-laptop) {
@@ -175,6 +178,21 @@
 
     > li {
         margin-bottom: $spacing-unit;
+    }
+}
+
+.post-title-wrapper {
+    position: relative;
+    width: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+    color: $index-title-font-color;
+    border-bottom: 1px $grey-color-light solid;
+
+    > h1 {
+        font-size: $index-title-font-size;
+        text-align: center;
     }
 }
 

@@ -163,6 +163,8 @@ pre {
     margin-top: -10em;
     @extend %clearfix;
 
+    border-radius: 5px;
+
     @include media-query($on-laptop) {
         padding: $spacing-unit / 2;
     }
@@ -174,6 +176,9 @@ pre {
     }
 }
 
+.clear-margin-top {
+  margin-top: 0 !important;
+}
 /**
  * Clearfix
  */
@@ -205,3 +210,23 @@ pre {
     }
 }
 
+/**
+ * Icons
+ */
+.footer-icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color-dark;
+        }
+    }
+}
+
+.navbar-color {
+  background-color: $page-navbar-color !important;
+}
