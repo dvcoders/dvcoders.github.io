@@ -34,12 +34,17 @@ $subtitle-font-color: #B6B6B6;
 
 $site-title-color: #fff;
 $page-link-color: #fff;
+$active-page-link-color: darken($page-link-color, 65%);
 
 $wrapper-color: #fff;
 $page-navbar-color: darken(#F0F0F0, 25%);
 
 $index-title-font-size: 36px;
 $index-title-font-color: #000;
+
+$page-title-font-color: lighten($grey-color, 1%);
+$page-subtitle-font-color: lighten($grey-color, 30%);
+$page-subtitle-line-color: lighten($grey-color, 25%);
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -48,6 +53,7 @@ $index-title-font-color: #000;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;

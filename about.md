@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+subtitle: The things you want to know
 permalink: /about/
 ---
 Duis ultrices dapibus rutrum. Duis semper, justo ac volutpat auctor, urna quam malesuada urna, a sollicitudin metus augue in nulla. Nam faucibus porttitor accumsan. Etiam felis felis, auctor at molestie eget, vestibulum quis massa. Praesent pharetra a tellus a scelerisque. Nulla facilisi. Morbi posuere ligula a libero placerat sollicitudin. Cras scelerisque ornare efficitur.

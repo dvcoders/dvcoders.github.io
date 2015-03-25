@@ -38,6 +38,10 @@
         }
     }
 
+    .active {
+        color: $active-page-link-color;
+    }
+
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
@@ -217,7 +221,7 @@
     }
 }
 
-#banner {
+.banner {
     // HAX. TRY ME.
     margin-top: -56px;
 
@@ -249,6 +253,17 @@
     }
 }
 
+.page-banner {
+    padding: 3.5em;
+    > h1 {
+        font-size: 3.45em;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        color: $page-title-font-color;
+    }
+}
+
 .header-wrapper {
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
@@ -270,4 +285,18 @@
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
+}
+
+.page-subtitle-wrapper {
+    position: relative;
+    width: 30%;
+
+    margin-left: auto;
+    margin-right: auto;
+    color: $page-subtitle-font-color;
+    border-top: 1px $page-subtitle-line-color solid;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
 }
