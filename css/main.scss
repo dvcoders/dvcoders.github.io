@@ -13,8 +13,8 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
+$text-color:       #000;
+$background-color: #F0F0F0;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -27,7 +27,15 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$title-font-size: 30px;
+$subtitle-font-size: 22px;
+$title-font-color: #FFF;
+$subtitle-font-color: #B6B6B6;
 
+$site-title-color: #fff;
+$page-link-color: #fff;
+
+$wrapper-color: #fff;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {

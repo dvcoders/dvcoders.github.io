@@ -2,8 +2,6 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -19,7 +17,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $site-title-color;
     }
 }
 
@@ -32,9 +30,8 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $page-link-color;
         line-height: $base-line-height;
-
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
@@ -162,7 +159,10 @@
  * Page content
  */
 .page-content {
+    position: relative;
     padding: $spacing-unit 0;
+    z-index: 1;
+    background-color: #EFEFEF;
 }
 
 .page-heading {
@@ -232,5 +232,65 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+}
+
+#banner {
+    // HAX. TRY ME.
+    margin-top: -56px;
+
+    background-attachment: scroll, fixed;
+    background-color: #666;
+    background-image: url("../assets/images/overlay.png"), url("../assets/images/bg0.jpg");
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+
+    color: #fff;
+    padding: 12em 0 26.5em 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+    h2 { 
+        font-size: 3.25em;
+        line-height: 1em;
+        font-weight: 300;
+    }
+
+    p {
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    @include media-query($on-palm) {
+        padding: 8em 0 16.5em 0;
+    }
+}
+
+.header-wrapper {
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
+.footer-wrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
     }
 }

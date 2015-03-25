@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,300italic);
+
 /**
  * Reset some basic elements
  */
@@ -98,7 +100,6 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
     }
 }
 
@@ -154,23 +155,24 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: 80%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    padding: $spacing-unit;
+    background-color: $wrapper-color;
+    margin-top: -10em;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
+        padding: $spacing-unit / 2;
+    }
+
+    @include media-query($on-palm) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        padding: $spacing-unit / 2;
     }
 }
-
-
 
 /**
  * Clearfix
@@ -202,3 +204,4 @@ pre {
         }
     }
 }
+
