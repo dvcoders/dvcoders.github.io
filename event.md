@@ -3,6 +3,7 @@ layout: page
 title: Event
 subtitle: Definitely not a waste of time
 permalink: /event/
+javascript: event.js
 ---
 Praesent vel ipsum euismod, consequat nunc quis, consectetur lectus. Proin vulputate porttitor sem in tincidunt. Nullam id lobortis tellus. Pellentesque blandit accumsan eros. Nullam ex enim, eleifend ac tincidunt at, porttitor sed elit. Curabitur mollis eros nec nulla congue congue. Vivamus vulputate eros non augue hendrerit, ac accumsan est gravida. Nam ut tellus quis enim viverra rutrum. Maecenas sit amet pulvinar ipsum, sit amet gravida eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc cursus massa et lacus varius, ac porttitor enim semper. Phasellus turpis mi, egestas sed vestibulum et, bibendum scelerisque leo. Sed mattis nunc vel ipsum varius, ut placerat enim sodales. Duis iaculis malesuada mattis.
 

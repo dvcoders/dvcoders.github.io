@@ -3,6 +3,7 @@ layout: page
 title: Project
 subtitle: The game is about to begin
 permalink: /project/
+javascript: project.js
 ---
 Sed placerat vehicula nisi id interdum. Integer molestie elementum imperdiet. Praesent accumsan neque nec lectus pretium, eget scelerisque arcu scelerisque. Praesent ullamcorper nisl orci, eu laoreet ex porta accumsan. Curabitur mollis ligula sit amet pretium placerat. Morbi consectetur dui nec libero interdum vehicula. Mauris consequat porttitor bibendum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam pretium varius imperdiet. Sed tincidunt purus dolor, vel ornare odio rhoncus a. Fusce ullamcorper efficitur felis, eu hendrerit tellus lacinia nec. Pellentesque sed consectetur dolor. Nullam pellentesque et massa in blandit. Morbi in mi vulputate, egestas mi vel, efficitur nunc. Nulla facilisi.
 
