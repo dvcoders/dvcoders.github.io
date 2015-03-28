@@ -6,14 +6,16 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
+			<div class="{{ post.style }}">
+	      <li>
       
-        <div class="post-title-wrapper">
-          <h1>{{ post.title }}</h1>
-        </div>
+	        <div class="post-title-wrapper">
+	          <h1>{{ post.title }}</h1>
+	        </div>
 
-        <p>{{ post.content }}</p>
-      </li>
+	        <p>{{ post.content }}</p>
+	      </li>
+			</div>
     {% endfor %}
   </ul>
 </div>
