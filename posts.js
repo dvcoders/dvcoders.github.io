@@ -8,3 +8,4 @@ var blues = document.querySelectorAll(".blue");
 for(var i=0; i<blues.length; i++){
 	blues[i].style.color = "blue";
 }
+
