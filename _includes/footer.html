@@ -70,7 +70,11 @@
         {{ site.footer_note }}
       </small>
     {% endif %}
-    
-  </div>
 
+  </div>
+  {% if page.javascript %}
+    {% assign lvl = page.url | append:'X' | split:'/' | size %}
+    {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+    <script src="{{ relative }}scripts/{{ page.javascript }}"></script>
+  {% endif %}
 </footer>
