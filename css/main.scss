@@ -13,8 +13,8 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
+$text-color:       #000;
+$background-color: #F0F0F0;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -27,7 +27,26 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$title-font-size: 30px;
+$subtitle-font-size: 22px;
+$title-font-color: #FFF;
+$subtitle-font-color: #B6B6B6;
 
+$site-title-color: #fff;
+$page-link-color: #fff;
+$active-page-link-color: darken($page-link-color, 65%);
+
+$wrapper-color: #fff;
+$page-navbar-color: darken(#F0F0F0, 25%);
+
+$index-title-font-size: 36px;
+$index-title-font-color: #000;
+
+$page-title-font-color: lighten($grey-color, 1%);
+$page-subtitle-font-color: lighten($grey-color, 30%);
+$page-subtitle-line-color: lighten($grey-color, 25%);
+
+$navbar-icon-size: 48px;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -36,6 +55,7 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
