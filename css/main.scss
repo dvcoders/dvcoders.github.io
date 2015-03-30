@@ -46,6 +46,8 @@ $page-title-font-color: lighten($grey-color, 1%);
 $page-subtitle-font-color: lighten($grey-color, 30%);
 $page-subtitle-line-color: lighten($grey-color, 25%);
 
+$navbar-icon-size: 48px;
+
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
