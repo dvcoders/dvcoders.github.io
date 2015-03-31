@@ -8,7 +8,7 @@ javascript: [jquery-1.11.2.min.js, modernizr.js, events.js]
 <section id="cd-timeline" class="cd-container">
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-picture">
-            <img src="{{baseurl}}/images/cd-icon-picture.svg" alt="Picture">
+            <img src="{{ site.baseurl }}/images/cd-icon-picture.svg" alt="Picture">
         </div> <!-- cd-timeline-img -->
         <div class="cd-timeline-content">
             <h2>Title of section 1</h2>
@@ -19,7 +19,7 @@ javascript: [jquery-1.11.2.min.js, modernizr.js, events.js]
     </div> <!-- cd-timeline-block -->
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-movie">
-            <img src="{{baseurl}}/images/cd-icon-movie.svg" alt="Movie">
+            <img src="{{ site.baseurl }}/images/cd-icon-movie.svg" alt="Movie">
         </div> <!-- cd-timeline-img -->
         <div class="cd-timeline-content">
             <h2>Title of section 2</h2>
@@ -30,7 +30,7 @@ javascript: [jquery-1.11.2.min.js, modernizr.js, events.js]
     </div> <!-- cd-timeline-block -->
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-picture">
-            <img src="{{baseurl}}/images/cd-icon-picture.svg" alt="Picture">
+            <img src="{{ site.baseurl }}/images/cd-icon-picture.svg" alt="Picture">
         </div> <!-- cd-timeline-img -->
         <div class="cd-timeline-content">
             <h2>Title of section 3</h2>
@@ -41,7 +41,7 @@ javascript: [jquery-1.11.2.min.js, modernizr.js, events.js]
     </div> <!-- cd-timeline-block -->
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-location">
-            <img src="{{baseurl}}/images/cd-icon-location.svg" alt="Location">
+            <img src="{{ site.baseurl }}/images/cd-icon-location.svg" alt="Location">
         </div> <!-- cd-timeline-img -->
         <div class="cd-timeline-content">
             <h2>Title of section 4</h2>
@@ -52,7 +52,7 @@ javascript: [jquery-1.11.2.min.js, modernizr.js, events.js]
     </div> <!-- cd-timeline-block -->
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-location">
-            <img src="{{baseurl}}/images/cd-icon-location.svg" alt="Location">
+            <img src="{{ site.baseurl }}/images/cd-icon-location.svg" alt="Location">
         </div> <!-- cd-timeline-img -->
         <div class="cd-timeline-content">
             <h2>Title of section 5</h2>
@@ -63,7 +63,7 @@ javascript: [jquery-1.11.2.min.js, modernizr.js, events.js]
     </div> <!-- cd-timeline-block -->
     <div class="cd-timeline-block">
         <div class="cd-timeline-img cd-movie">
-            <img src="{{baseurl}}/images/cd-icon-movie.svg" alt="Movie">
+            <img src="{{ site.baseurl }}/images/cd-icon-movie.svg" alt="Movie">
         </div> <!-- cd-timeline-img -->
         <div class="cd-timeline-content">
             <h2>Final Section</h2>
