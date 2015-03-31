@@ -187,7 +187,7 @@ Modules - reusable parts of our design
   background: white;
   border-radius: 0.25em;
   padding: 1em;
-  background: #FAFAFA;
+  background: $timeline-block-color;
   box-shadow: 0 3px 0 #d7e4ed;
 }
 .cd-timeline-content:after {
@@ -232,7 +232,7 @@ Modules - reusable parts of our design
   height: 0;
   width: 0;
   border: 7px solid transparent;
-  border-right: 7px solid #FAFAFA;
+  border-right: 7px solid $timeline-block-color;
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
@@ -258,7 +258,7 @@ Modules - reusable parts of our design
     top: 24px;
     left: 100%;
     border-color: transparent;
-    border-left-color: #FAFAFA;
+    border-left-color: $timeline-block-color;
   }
   .cd-timeline-content .cd-read-more {
     float: left;
@@ -279,7 +279,7 @@ Modules - reusable parts of our design
     left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: #FAFAFA;
+    border-right-color: $timeline-block-color;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
     float: right;
