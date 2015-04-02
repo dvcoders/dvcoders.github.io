@@ -46,12 +46,6 @@ Modules - reusable parts of our design
   position: relative;
   margin: 2em 0;
 }
-.cd-timeline-block:nth-child(even) {
-  padding-left: 6em;
-}
-.cd-timeline-block:nth-child(odd) {
-  padding-right: 6em;
-}
 .cd-timeline-block:after {
   content: "";
   display: table;
@@ -72,6 +66,12 @@ Modules - reusable parts of our design
   }
   .cd-timeline-block:last-child {
     margin-bottom: 0;
+  }
+  .cd-timeline-block:nth-child(even) {
+    padding-left: 6em;
+  }
+  .cd-timeline-block:nth-child(odd) {
+    padding-right: 6em;
   }
 }
 
