@@ -9,6 +9,7 @@ twitter_username: dvcoders
 github_username:  dvcoders
 facebook_username: 
 footer_note: DVCoders 2015.
-
+collections:
+- projects
 # Build settings
 markdown: kramdown
