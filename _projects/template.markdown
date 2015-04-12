@@ -4,4 +4,4 @@ contributors: "Jake Loo" # Contributors, Contributors
 link: "http://google.com" # Link to github..?
 ---
 #Description
-Pellentesque vel ipsum sit amet leo hendrerit laoreet a a erat. Quisque sed blandit arcu. In sit amet purus eget dolor placerat varius eget nec ex.
+this is a template for the card that show the projects that dvcoders is working on. Just copy this template and rename it to something like "$<project_name>.md" to create a project card for the projects page.
