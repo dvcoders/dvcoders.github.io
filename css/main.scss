@@ -14,7 +14,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #000;
-$background-color: #F0F0F0;
+$background-color: #CDC3B8;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -34,7 +34,7 @@ $subtitle-font-color: #B6B6B6;
 
 $site-title-color: #fff;
 $page-link-color: #fff;
-$active-page-link-color: darken($page-link-color, 65%);
+$active-page-link-color: #894A29;
 
 $wrapper-color: #fff;
 $page-navbar-color: darken(#F0F0F0, 25%);
@@ -42,9 +42,9 @@ $page-navbar-color: darken(#F0F0F0, 25%);
 $index-title-font-size: 36px;
 $index-title-font-color: #000;
 
-$page-title-font-color: lighten($grey-color, 1%);
-$page-subtitle-font-color: lighten($grey-color, 30%);
-$page-subtitle-line-color: lighten($grey-color, 25%);
+$page-title-font-color: #4F310F; 
+$page-subtitle-font-color: #795E41;
+$page-subtitle-line-color: #9B8670;
 
 $navbar-icon-size: 48px;
 
