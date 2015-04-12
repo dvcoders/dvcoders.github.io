@@ -14,16 +14,16 @@ permalink: /project/
       <img src="{{ site.baseurl }}/images/{{ projects.image }}">
       {% else %}
       <!-- Place Holder -->
-      <img src="http://lorempixel.com/800/800">
+      <img src="{{ site.baseurl }}/images/projects-placeholder.png">
       {% endif %}
 
-        <h1><a href="{{ project.link }}">{{ project.title }}</a></h1>
+      <h1><a href="{{ project.link }}">{{ project.title }}</a></h1>
 
-        {% if project.contributors %}
-          <h6 class="projects-contributors">Contributors : {{ project.contributors }}</h6>
-        {% endif %}
+      {% if project.contributors %}
+      <h6 class="projects-contributors">Contributors : {{ project.contributors }}</h6>
+      {% endif %}
 
-        <p>{{ project.content }}</p>
+      <p>{{ project.content }}</p>
 
     </li>
     {% endfor %}
