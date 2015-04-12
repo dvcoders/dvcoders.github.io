@@ -3,9 +3,7 @@
 */
 .site-header {
     min-height: 56px;
-
-// Positioning context for the mobile navigation icon
-position: relative;
+    position: relative;
 }
 
 .site-title {
@@ -32,59 +30,59 @@ position: relative;
     .page-link {
         color: $page-link-color;
         line-height: $base-line-height;
-// Gaps between nav items, but not on the first one
-&:not(:first-child) {
-    margin-left: 20px;
-}
-}
 
-.active {
-    color: $active-page-link-color;
-}
-
-@include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
-    right: 30px;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: right;
-
-    .menu-icon {
-        display: block;
-        float: right;
-        width: 36px;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center;
-
-        > svg {
-            width: 18px;
-            height: 15px;
-
-            path {
-                fill: $grey-color-dark;
-            }
+        &:not(:first-child) {
+            margin-left: 20px;
         }
     }
 
-    .trigger {
-        clear: both;
-        display: none;
+    .active {
+        color: $active-page-link-color;
     }
 
-    &:hover .trigger {
-        display: block;
-        padding-bottom: 5px;
-    }
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: 30px;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
 
-    .page-link {
-        display: block;
-        padding: 5px 10px;
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+        }
     }
-}
 }
 
 
@@ -230,17 +228,17 @@ position: relative;
     }
 }
 
-.banner {
-    margin-top: -56px;
-
+.full-bg {
     background-attachment: scroll, fixed;
     background-color: #666;
     background-image: url("../images/overlay.png"), url("../images/bg0.jpg");
     background-position: top left, center center;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
+}
 
-    color: #fff;
+.banner {
+    color: #CCCCCC;
     padding: 12em 0 26.5em 0;
     text-align: center;
 
