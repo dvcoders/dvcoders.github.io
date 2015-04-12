@@ -322,21 +322,40 @@
     }
 
     // The cards
-    li {
+    li:nth-child(odd) {
         width: 98%;
         height: 280px;
         border-radius: 5px;
         border: 1px solid #F3F8F8;
         background-color: #FCFFFF;
         margin: 1em;
+
+        img {
+            float: left;
+            border-radius: 5px 0 0 5px;
+            width: 25%;
+            height: 100%;
+            margin-right: 10px;
+        }
     }
 
-    img {
-        float: left;
-        border-radius: 5px 0 0 5px;
-        width: 25%;
-        height: 100%;
-        margin-right: 10px;
+    li:nth-child(even) {
+        width: 98%;
+        height: 280px;
+        border-radius: 5px;
+        border: 1px solid #F3F8F8;
+        background-color: #FCFFFF;
+        padding: 0 5px;
+        margin: 1em;
+        text-align: right;
+
+        img {
+            float: right;
+            border-radius: 0 5px 5px 0;
+            width: 25%;
+            height: 100%;
+            margin-left: 10px;
+        }
     }
 
     a, a:visited {
@@ -346,6 +365,7 @@
     a:hover {
         color: #507DBC;
     }
+    
 
     h1 {
         margin: 0;
@@ -361,7 +381,7 @@
         margin: 0;
         padding: 0;
     }
-    
+
     p {
         color: #202020;
     }
