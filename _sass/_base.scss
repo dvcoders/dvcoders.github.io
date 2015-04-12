@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,300italic);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,100);
 
 /**
  * Reset some basic elements
@@ -149,8 +149,6 @@ pre {
     }
 }
 
-
-
 /**
  * Wrapper
  */
@@ -191,8 +189,6 @@ pre {
     }
 }
 
-
-
 /**
  * Icons
  */
@@ -210,9 +206,6 @@ pre {
     }
 }
 
-/**
- * Icons
- */
 .footer-icon {
 
     > svg {
@@ -222,11 +215,21 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color-dark;
+            fill: #FFFFFF; 
         }
     }
 }
 
-.navbar-color {
-  background-color: $page-navbar-color !important;
+.footer-icon-abs {
+
+    > svg {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        vertical-align: middle;
+
+        path {
+            fill: #EAEAEA;
+        }
+    }
 }
