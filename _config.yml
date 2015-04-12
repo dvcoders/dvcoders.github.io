@@ -8,7 +8,11 @@ url: "http://dvcoders.github.io" # the base hostname & protocol for your site
 twitter_username: dvcoders
 github_username:  dvcoders
 facebook_username: 
-footer_note: DVCoders 2015.
+footer_note: dvcoders 2015
+collections:
+    - projects
+exclude:
+    - "_projects/template.markdown"
 
 # Build settings
 markdown: kramdown

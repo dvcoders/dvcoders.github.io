@@ -1,11 +1,11 @@
 /**
- * Site header
- */
+* Site header
+*/
 .site-header {
     min-height: 56px;
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+// Positioning context for the mobile navigation icon
+position: relative;
 }
 
 .site-title {
@@ -32,66 +32,66 @@
     .page-link {
         color: $page-link-color;
         line-height: $base-line-height;
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-    }
+// Gaps between nav items, but not on the first one
+&:not(:first-child) {
+    margin-left: 20px;
+}
+}
 
-    .active {
-        color: $active-page-link-color;
-    }
+.active {
+    color: $active-page-link-color;
+}
 
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
+@include media-query($on-palm) {
+    position: absolute;
+    top: 9px;
+    right: 30px;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
 
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
+    .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center;
 
-            > svg {
-                width: 18px;
-                height: 15px;
+        > svg {
+            width: 18px;
+            height: 15px;
 
-                path {
-                    fill: $grey-color-dark;
-                }
+            path {
+                fill: $grey-color-dark;
             }
         }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
     }
+
+    .trigger {
+        clear: both;
+        display: none;
+    }
+
+    &:hover .trigger {
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    .page-link {
+        display: block;
+        padding: 5px 10px;
+    }
+}
 }
 
 
 
 /**
- * Site footer
- */
+* Site footer
+*/
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
@@ -127,8 +127,8 @@
 }
 
 /**
- * Page content
- */
+* Page content
+*/
 .page-content {
     position: relative;
     padding: $spacing-unit 0;
@@ -177,8 +177,8 @@
 
 
 /**
- * Posts
- */
+* Posts
+*/
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -222,35 +222,35 @@
 }
 
 .banner {
-    // HAX. TRY ME.
-    margin-top: -56px;
+// HAX. TRY ME.
+margin-top: -56px;
 
-    background-attachment: scroll, fixed;
-    background-color: #666;
-    background-image: url("../images/overlay.png"), url("../images/bg0.jpg");
-    background-position: top left, center center;
-    background-repeat: repeat, no-repeat;
-    background-size: auto, cover;
+background-attachment: scroll, fixed;
+background-color: #666;
+background-image: url("../images/overlay.png"), url("../images/bg0.jpg");
+background-position: top left, center center;
+background-repeat: repeat, no-repeat;
+background-size: auto, cover;
 
-    color: #fff;
-    padding: 12em 0 26.5em 0;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
+color: #fff;
+padding: 12em 0 26.5em 0;
+text-align: center;
+font-family: 'Roboto', sans-serif;
 
-    h2 { 
-        font-size: 3.25em;
-        line-height: 1em;
-        font-weight: 300;
-    }
+h2 { 
+    font-size: 3.25em;
+    line-height: 1em;
+    font-weight: 300;
+}
 
-    p {
-        font-weight: 300;
-        font-style: italic;
-    }
+p {
+    font-weight: 300;
+    font-style: italic;
+}
 
-    @include media-query($on-palm) {
-        padding: 8em 0 16.5em 0;
-    }
+@include media-query($on-palm) {
+    padding: 8em 0 16.5em 0;
+}
 }
 
 .page-banner {
@@ -305,4 +305,59 @@
     width: $navbar-icon-size;
     height: $navbar-icon-size;
     margin-top: 5px;
+}
+
+// Projects 
+.projects {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        overflow: hidden;
+    }
+
+    // The cards
+    li {
+        width: 98%;
+        height: 280px;
+        border-radius: 5px;
+        border: 1px solid #F3F8F8;
+        background-color: #FCFFFF;
+        margin: 1em;
+    }
+
+    img {
+        float: left;
+        border-radius: 5px 0 0 5px;
+        width: 25%;
+        height: 100%;
+        margin-right: 10px;
+    }
+
+    a, a:visited {
+        color: #274060;
+    }
+
+    a:hover {
+        color: #507DBC;
+    }
+
+    h1 {
+        margin: 0;
+        padding: 0;
+
+        font-size: 36px;
+        font-weight: 100;
+    }
+
+    h6 {
+        color: #7C99B4;
+        font-size: small;
+        margin: 0;
+        padding: 0;
+    }
+    
+    p {
+        color: #202020;
+    }
 }

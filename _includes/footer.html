@@ -1,10 +1,7 @@
 <footer class="site-footer">
-
   <div class="footer-wrapper">
-
     <div class="footer-col-wrapper">
       <div class="footer-col">
-
         <ul class="social-media-list">
           <li>
             <a href="mailto:{{ site.email }}">
@@ -15,9 +12,6 @@
             </span>
             </a>
           </li>
-
-
-
           {% if site.github_username %}
           <li>
             <a href="https://github.com/{{ site.github_username }}">
@@ -30,8 +24,6 @@
             </a>
           </li>
           {% endif %}
-
-
 
           {% if site.facebook_username %}
           <li>
@@ -60,8 +52,6 @@
             </li>
           {% endif %}
         </ul>
-
-
       </div>
     </div>
 
@@ -70,11 +60,9 @@
         {{ site.footer_note }}
       </small>
     {% endif %}
-
   </div>
-  {% if page.javascript %}
-    {% assign lvl = page.url | append:'X' | split:'/' | size %}
-    {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
-    <script src="{{ relative }}scripts/{{ page.javascript }}"></script>
-  {% endif %}
+
+  {% for js in page.javascript %}
+    <script src="{{ site.baseurl }}/scripts/{{ js }}"></script>
+  {% endfor %}
 </footer>
