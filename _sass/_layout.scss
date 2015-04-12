@@ -97,6 +97,15 @@ position: relative;
     padding: $spacing-unit 0;
 }
 
+.site-footer-abs {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #EAEAEA;
+    padding: $spacing-unit 0;
+}
+
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
@@ -222,35 +231,33 @@ position: relative;
 }
 
 .banner {
-// HAX. TRY ME.
-margin-top: -56px;
+    margin-top: -56px;
 
-background-attachment: scroll, fixed;
-background-color: #666;
-background-image: url("../images/overlay.png"), url("../images/bg0.jpg");
-background-position: top left, center center;
-background-repeat: repeat, no-repeat;
-background-size: auto, cover;
+    background-attachment: scroll, fixed;
+    background-color: #666;
+    background-image: url("../images/overlay.png"), url("../images/bg0.jpg");
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
 
-color: #fff;
-padding: 12em 0 26.5em 0;
-text-align: center;
-font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding: 12em 0 26.5em 0;
+    text-align: center;
 
-h2 { 
-    font-size: 3.25em;
-    line-height: 1em;
-    font-weight: 300;
-}
+    h2 { 
+        font-size: 3.25em;
+        line-height: 1em;
+        font-weight: 300;
+    }
 
-p {
-    font-weight: 300;
-    font-style: italic;
-}
+    p {
+        font-weight: 100;
+        font-style: italic;
+    }
 
-@include media-query($on-palm) {
-    padding: 8em 0 16.5em 0;
-}
+    @include media-query($on-palm) {
+        padding: 8em 0 16.5em 0;
+    }
 }
 
 .page-banner {

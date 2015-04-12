@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+  {% include header.html %}
+
+  {% if page.ignore != true %}
+  <div class="page-content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </div>
+  {% include footer.html %}
+
+  {% else %}
+    {% include footer-index-ignore.html %}
+  {% endif %}
+
+
+</body>
+
+</html>
