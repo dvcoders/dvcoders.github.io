@@ -9,6 +9,9 @@ twitter_username: dvcoders
 github_username:  dvcoders
 facebook_username: 
 footer_note: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
-
+collections:
+    - projects
+exclude:
+    - "_projects/template.markdown"
 # Build settings
 markdown: kramdown
