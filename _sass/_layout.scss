@@ -97,6 +97,15 @@ position: relative;
     padding: $spacing-unit 0;
 }
 
+.site-footer-abs {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #EAEAEA;
+    padding: $spacing-unit 0;
+}
+
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;

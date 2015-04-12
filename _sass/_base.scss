@@ -191,8 +191,6 @@ pre {
     }
 }
 
-
-
 /**
  * Icons
  */
@@ -210,9 +208,6 @@ pre {
     }
 }
 
-/**
- * Icons
- */
 .footer-icon {
 
     > svg {
@@ -223,6 +218,20 @@ pre {
 
         path {
             fill: $grey-color-dark;
+        }
+    }
+}
+
+.footer-icon-abs {
+
+    > svg {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        vertical-align: middle;
+
+        path {
+            fill: #EAEAEA;
         }
     }
 }
