@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Team
-subtitle: Meet the awesome team
+subtitle: The people who make this possible
 permalink: /team/
 ---
 Nam vestibulum, mauris in tincidunt blandit, est tellus rhoncus sapien, nec imperdiet ante est et augue. Suspendisse eu justo congue nulla tempus ultricies non eget mauris. Nunc suscipit viverra magna in lobortis. Quisque faucibus neque ac nibh consectetur porttitor. Nunc ac augue nisl. Cras ut ex viverra risus rutrum mollis sed quis felis. Nunc placerat enim in tellus lacinia consequat. Suspendisse potenti. Vestibulum imperdiet sollicitudin eros. Donec congue feugiat sapien, et ultrices mi placerat posuere. Mauris varius metus non enim consequat facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel suscipit sapien. Mauris leo nibh, mattis ut imperdiet at, commodo accumsan mauris.
