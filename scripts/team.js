@@ -1,5 +1,5 @@
 $(document).ready(function {
-  jQuery.getJSON('https://api.dvcoders.com/team', function(data) {
+  jQuery.getJSON('https://api.dvcoders.com/kernels', function(data) {
     var users = data.result;
   
     for (i = 0; i < users.length; i++) {
