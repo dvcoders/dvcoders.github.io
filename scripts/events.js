@@ -1,8 +1,29 @@
 jQuery(document).ready(function($){
-	var $timeline_block = $('.cd-timeline-block');
-
-	//hide timeline blocks which are outside the viewport
+  //append events from json
+  jQuery.getJSON('https://api.dvcoders.com/events?start=' + Date.now(), function(data) {
+    var results = data.result;
+  
+    var newHtml;
+    results.forEach( function(result) {
+      newHtml = 
+      '<div class="cd-timeline-block">' +
+        '<div class="cd-timeline-img"></div>' +
+        '<div class="cd-timeline-content">' +
+          '<h2>' + result.title + '</h2>' +
+          '<p>' + result.location + '</p>' +
+          '<p>' + result.description + '</p>' +
+          '<span class="cd-date">' + formatDate(result.start, result.end)+ '</span>' +
+        '</div>' +
+      '</div>';
+      jQuery('#cd-timeline').append(newHtml);
+    });
+  });
+  
+  var $timeline_block = $('.cd-timeline-block');
+	
+  //hide timeline blocks which are outside the viewport
 	$timeline_block.each(function(){
+    console.log($(this).html());
 		if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
 			$(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
 		}
@@ -17,3 +38,18 @@ jQuery(document).ready(function($){
 		});
 	});
 });
+
+function formatDate(startMillis, endMillis) {
+  var formatted;
+  var start = new Date(startMillis);
+  var end = new Date(endMillis);
+  
+  formatted = start.toDateString().substring(4,10) + " ";    // Include only the month and date
+  formatted += start.toTimeString().substring(0,5) + " - ";  // Include only the hours:minutes
+  if (end.getDate() > start.getDate()) {                     // If it ends on a different day, include the day
+    formatted += end.toDateString().substring(4,10) + " ";
+  }
+  formatted += end.toTimeString().substring(0, 5);
+  
+  return formatted;
+}
