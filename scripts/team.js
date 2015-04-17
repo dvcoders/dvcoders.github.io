@@ -1,14 +1,14 @@
 $(document).ready(function {
   jQuery.getJSON('https://api.dvcoders.com/kernels', function(data) {
-    var users = data.result;
+    var results = data.result;
 
     var newHTML;
-    users.forEach( function (user, index, array) {
+    results.forEach( function (result, index, array) {
       newHTML += '<li class="col-md-4">' +
-          '<img src="' + user.image_link + '">' +
-          '<h1>' + user.user.fullName + '</h1>' +
-          '<p>' + user.bio + '</p>' +
+          '<img src="' + result.image_link + '">' +
+          '<h1>' + result.user.fullName + '</h1>' +
+          '<p>' + result.bio + '</p>' +
         '</li>';
-    })
+    });
   });
 });
