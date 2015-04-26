@@ -94,13 +94,13 @@ Modules - reusable parts of our design
   margin-left: -12px;
   margin-top: -12px;
 }
-.cd-timeline-img.cd-picture {
+.cd-timeline-block:nth-child(3n+0) .cd-timeline-img{
   background: #75ce66;
 }
-.cd-timeline-img.cd-movie {
+.cd-timeline-block:nth-child(3n+1) .cd-timeline-img{
   background: #c03b44;
 }
-.cd-timeline-img.cd-location {
+.cd-timeline-block:nth-child(3n+2) .cd-timeline-img{
   background: #f0ca45;
 }
 @media only screen and (min-width: 1170px) {

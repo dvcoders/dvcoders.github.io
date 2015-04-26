@@ -4,7 +4,7 @@ subtitle: Where the coders belong
 email: info@dvcoders.com
 description: DVCoders club website
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://dvcoders.github.io" # the base hostname & protocol for your site
+url: "https://dvcoders.github.io" # the base hostname & protocol for your site
 twitter_username: dvcoders
 github_username:  dvcoders
 facebook_username: 
