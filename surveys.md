@@ -4,6 +4,10 @@ title: Surveys
 subtitle: We love feedback
 permalink: /surveys/
 ---
-[Web Development Survey](https://www.surveymonkey.com/s/QTVVKSL) - May 1st, 2015 event.
+#[Spring 2015 Club Survey](https://www.surveymonkey.com/s/YY96Y38) - End of Spring semester.
 
-+ Git crash course + web development workshop.
+* How did we do this semester? Let us know!
+
+#[Web Development Day Survey](https://www.surveymonkey.com/s/982NHY7) - May 1st, 2015 event.
+
+* Git crash course + web development workshop.
