@@ -20,7 +20,7 @@ After August 13th you'll be able to rejoin the Slack team through [slack.dvcoder
 	
 Set to be on **Wednesdays from 5:00-7:00 PM** [17:00-19:00]. 
 
-Our **first unofficial meeting** is scheduled to be Wednesday, August 26th from 5:00-7:00 PM, and every following Wednesday.
+Our **first unofficial meeting** is scheduled to be Wednesday, September 9th from 5:00-7:00 PM, and every following Wednesday.
 
 Fill out [this form](http://goo.gl/forms/XJaxXYE4LN) to let us know if you're able to make the scheduled time!
 	
