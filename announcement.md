@@ -13,7 +13,7 @@ Before the semester starts, there are some changes to be aware of:
 
 [dvcoders.slack.com](dvcoders.slack.com) will be deleted on Monday, August 13th and recreated for the fall. This is being done to bypass out 10,000 message limit.
 
-After August 13th you'll be able to rejoin the Slack team through [slack.dvcoders.com](https://slack.dvcoders.com), **do it**, **do it now**! 
+After August 13th you'll be able to rejoin the Slack team through [chat.dvcoders.com](https://chat.dvcoders.com), **do it**, **do it now**! 
 
 
 #### **Club Meetings**
