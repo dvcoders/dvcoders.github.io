@@ -1,13 +1,13 @@
 # Site settings
 title: dvcoders
 subtitle: Where the coders belong
-email: info@dvcoders.com
-description: DVCoders club website
+email: contact@dvcoders.com
+description: dvcoders club website
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://dvcoders.com" # the base hostname & protocol for your site
 twitter_username: dvcoders
 github_username:  dvcoders
-# facebook_username : 
+facebook_username: dvcoders 
 footer_note: dvcoders 2015
 collections:
     - projects
