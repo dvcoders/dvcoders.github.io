@@ -18,7 +18,7 @@ After August 13th you'll be able to rejoin the Slack team through [chat.dvcoders
 
 #### **Club Meetings**
 	
-Set to be on **Wednesdays from 5:00-7:00 PM** [17:00-19:00] in room **L-102B** (first floor library). 
+Set to be on **Wednesdays from 5:00-7:00 PM** [17:00-19:00] in room **PL 101** (Planetarium rooms are in-between ATC and Life Sciences building). 
 
 Our **first unofficial meeting** is scheduled to be Wednesday, September 9th from 5:00-7:00 PM, and every following Wednesday.
 
