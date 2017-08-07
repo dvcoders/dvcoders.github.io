@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-subtitle: The things you want to know
+subtitle: 
 permalink: /about/
 ---
 The focus of dvcoders is to build software development skills in order prepare 
