@@ -12,7 +12,7 @@ All club announcements and community chat can be found on our Slack channel. Sig
 
 #### **Club Meetings**
 
-The club meeting time and location has not yet been set for Fall 2017. Updates will be posted on Slack, so be sure to check!
+The club meeting time and location has not yet been set for Fall 2017. Updates will be posted on Slack, so be sure to check back!
 
 #### **Feedback**
 
