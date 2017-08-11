@@ -4,9 +4,18 @@ title: About
 subtitle: 
 permalink: /about/
 ---
-The focus of dvcoders is to build software development skills in order prepare 
-students for a lifetime of programming! Currently, the core subject we are focusing 
-on is **web development**, which includes creating your own personal website on which you can host a blog or resume and creating a video game that runs in the browser.
-Whether you are a seasoned developer working for a Fortune 500 company or someone that is just interested in the joy of computer science, there is a place for you at dvcoders. At dvcoders we want you to feel welcome and comfortable to learn regardless of your programming experience! 
+#### **Where coders belong**
+Come and build software development skills for a lifetime of programming! Whether you are a seasoned developer or just interested in the joy of computer science, this is a place for you. At dvcoders we want you to be comfortable and welcome regardless of your programming experience.
 
+#### **Join us**
+Sign up at [apply.dvcoders.com](http://apply.dvcoders.com/)
+Join our team chat at [chat.dvcoders.com](http://chat.dvcoders.com)
+Already joined? Log in at [dvcoders.slack.com](http://dvcoders.slack.com)
 
+#### **Connect with us**
+[dvcodersclub@gmail.com](mailto:dvcodersclub@gmail.com)
+[orgsync.com](https://orgsync.com/152317/chapter)
+[facebook.com/dvcoders](https://www.facebook.com/dvcoders/)
+[github.com/dvcoders](https://github.com/dvcoders)
+[instagram.com/dvcoders](https://instagram.com/dvcoders/)
+[twitter.com/dvcoders](https://twitter.com/dvcoders)
