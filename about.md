@@ -9,7 +9,9 @@ Come and build software development skills for a lifetime of programming! Whethe
 
 #### **Join us**
 Sign up at [apply.dvcoders.com](http://apply.dvcoders.com/)
+
 Join our team chat at [chat.dvcoders.com](http://chat.dvcoders.com)
+
 Already joined? Log in at [dvcoders.slack.com](http://dvcoders.slack.com)
 
 #### **Connect with us**
