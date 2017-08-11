@@ -14,8 +14,13 @@ Already joined? Log in at [dvcoders.slack.com](http://dvcoders.slack.com)
 
 #### **Connect with us**
 [dvcodersclub@gmail.com](mailto:dvcodersclub@gmail.com)
+
 [orgsync.com](https://orgsync.com/152317/chapter)
+
 [facebook.com/dvcoders](https://www.facebook.com/dvcoders/)
+
 [github.com/dvcoders](https://github.com/dvcoders)
+
 [instagram.com/dvcoders](https://instagram.com/dvcoders/)
+
 [twitter.com/dvcoders](https://twitter.com/dvcoders)
