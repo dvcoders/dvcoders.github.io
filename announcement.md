@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Fall 2017
+title: Spring 2018
 subtitle: 
-permalink: /fall/
+permalink: /spring/
 ---
 #### **Club meetings**
-Fall 2017 meetings will take place every **Wednesday from 5:30PM to 7:00PM at ATC-109**. See you there!
-This semester, we will work on a website project and also create a video game using the Phaser.io platform.
+Spring 2018 meetings will take place every **Thursday from 5:00PM to 6:30PM at ATC-109**. See you there!
+This semester, we'll be creating a variety of C++ utility programs and web scrapers as well as working with a local startup, Acutulus Enterprises, to create a web application as a tie-in to one of their projects.
