@@ -132,7 +132,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;    
+    color: $grey-color;
     @extend %clearfix;
 }
 
@@ -244,19 +244,20 @@
 }
 
 .banner {
-    color: #CCCCCC;
-    margin: 6em 0 0 0;
+    margin: auto;
     text-align: center;
 
-    h2 { 
-        font-size: 3.25em;
+    h1 {
+        font-size: 4.60em;
         line-height: 1em;
-        font-weight: 300;
+        font-weight: 800;
+        color: $logo-color;
     }
 
     p {
         font-weight: 100;
         font-style: italic;
+        color: $slogan-color;
     }
 
     @include media-query($on-palm) {
@@ -268,8 +269,8 @@
     padding: 3.5em;
     > h1 {
         font-size: 3.45em;
-        font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        // font-family: 'Roboto', sans-serif;
         text-align: center;
         color: $page-title-font-color;
     }
@@ -308,7 +309,7 @@
     border-top: 1px $page-subtitle-line-color solid;
     padding-top: 10px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    // font-family: 'Roboto', sans-serif;
     font-style: italic;
 }
 
@@ -319,7 +320,7 @@
 }
 
 
-// Projects 
+// Projects
 .projects {
     ul {
         margin: 0;

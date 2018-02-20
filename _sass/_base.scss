@@ -30,11 +30,16 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: $base-paragraph-spacing;
+  margin-top: $base-paragraph-spacing * 4;
+}
+
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+  // margin-bottom: $base-paragraph-spacing;
+  margin-bottom: $spacing-unit / 2;
 }
 
 
@@ -45,6 +50,10 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
+}
+
+img.profile {
+  max-width: 5em;
 }
 
 
@@ -81,8 +90,10 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+h1 {
+    font-family: $title-font-family !important;
+    font-style: italic;
+    font-weight: 600;
 }
 
 
@@ -213,9 +224,10 @@ pre {
         width: 32px;
         height: 32px;
         vertical-align: middle;
-
+        margin: 20px;
+        
         path {
-            fill: #FFFFFF; 
+            fill: #FFFFFF;
         }
     }
 }

@@ -7,8 +7,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://dvcoders.com" # the base hostname & protocol for your site
 twitter_username: dvcoders
 github_username:  dvcoders
-facebook_username: dvcoders 
-footer_note: dvcoders 2017
+facebook_username: dvcoders
+footer_note: dvcoders 2018
 collections:
     - projects
 exclude:
